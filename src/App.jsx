@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react'
-import image from './image/amal2.png'
-import amal from './image/amal.png'
+import image from './image/amal3.png'
+
 import project1 from './image/project1.png'
 import Header from './Header'
 
@@ -44,98 +44,155 @@ export default function App() {
   }
 
   return (
-    <div className="">
+    <div className="bg-slate-800">
       <Header/>
 <div className="flex justify-around md:m-10 ">
   <div className="flex justify-center md:items-center ">
-    <div className="flex flex-col md:bg-white bg-indigo-50 p-10">
-    <h1 className='text-blue-800 md:text-4xl text-2xl font-bold mt-20 md:mt-10'>Hi , I'm AMAL</h1>
-    <p  className='text-gray-700 md:text-2xl text-lg md:mt-3 mt-1 font-semibold'>React Developer </p>
-    <p className='md:min-w-[400px] text-sm md:mt-3 mt-1 text-gray-700'>Building scalable web application with a focus on seamless user experiences and robust backend architecture .</p>
+    <div className="flex flex-col  p-10">
+      <div className="flex"><h1 className='text-white md:text-4xl text-2xl font-bold mt-20 md:mt-10  '>Hi , I'm</h1> <h1 className='bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent md:text-4xl text-2xl font-bold mt-20 md:mt-10 ml-3'>AMAL</h1></div>
+    
+    <p  className='text-gray-700 md:text-2xl text-lg md:mt-3 mt-1 font-semibold text-slate-200'>React Developer </p>
+    <p className='md:min-w-[400px] text-sm md:mt-3 mt-1 text-gray-700 text-slate-200'>Building scalable web application with a focus on seamless user experiences and robust backend architecture .</p>
    <a href="about"> <button className='bg-linear-to-r from-violet-600 to-blue-600 text-white font-semibold p-1 mt-5 md:w-[200px] w-[130px] text-sm md:text-md'>More About Me</button></a>
   </div>
   </div>
-  <div><img src={image} className='w-[500px] h-[500px] mt-20 hidden md:block'/></div>
+  <div><img src={image} className='w-[400px] h-[450px] mt-20 hidden md:block'/></div>
 </div>
-<div className="bg-slate-50">
+<div className="">
   <br/>
+  <hr className='border-gray-700'></hr>
   <section id="about"></section>
-<h1 className='text-center text-2xl font-semibold text-blue-600 mt-3'>About Me</h1>
-  <div className="grid md:grid-cols-2 ">
-  <div className='flex md:justify-end  justify-center '><img src={amal} className='w-[300px] h-[300px] mt-5'/></div>
-  <div className="text-left flex items-center mr-5">
-    <h1 data-index="0" ref={(el)=>refs.current[0]=el} className={`text-sm text-gray-800 leading-6 ${animate(0,"up")} m-5 mt-0`}>Iam a passionate Full-Stack Developer with a strong foundation in building dynamic and responsive
+<h1 className='text-center text-3xl font-semibold bg-linear-to-r from-blue-500 to-red-700 bg-clip-text text-transparent mt-3'>About Me</h1>
+  <div className="md:flex flex-col ">
+    <div className="Md:ml-10 w-full flex justify-center"><img src={image} className='w-[200px] h-[220px] mt-5 md:hidden block '/></div>
+    <div className="m-10 ">
+    <h1 data-index="0" ref={(el)=>refs.current[0]=el} className={`text-xs md:text-sm text-white text-gray-800 leading-6 ${animate(0,"up")} `}>Iam a passionate Full-Stack Developer with a strong foundation in building dynamic and responsive
      web application.with a computer science background and expertise in the MERN Stack (MongoDB,Express,React and Node.js),
 i enjoy solving complex problems through clean,efficient code.iam constantly learning new technologies and am eager to contribute my Skills 
 to innovative projects in the IT industry.
     </h1>
     </div>
+ 
   </div>
 </div>
 <section id="skils"></section>
- <h1 className="text-blue-600 text-center mt-3 font-semibold text-xl">Skils</h1>
+
+ <h1 className="text-blue-600 text-center mt-3 font-semibold text-2xl  bg-linear-to-r from-blue-500 to-red-700 bg-clip-text text-transparent">Skils</h1>
 <div className=" ml-10 mr-10 grid md:grid-cols-2">
   
   <div className="mt-10 ml-auto mr-10">
    
     {/***jj */}
     <div className="flex justify-between w-[300px] mb-2 ">
-      <div className="text-sm">React</div>
-      <div className="text-sm">85%</div>
+      <div className="text-sm text-white">React</div>
+      <div className="text-sm text-white">85%</div>
     </div>
     <div className="relative">
        <div className="w-[300px] bg-slate-300 h-1 absolute inset-0"> </div>
-       <div ref={(el)=>refs.current[1]=el} data-index="1" className={` bg-violet-700 h-1 absolute inset-0 ${leftanimate(1,"react")}`}> </div>
+       <div ref={(el)=>refs.current[1]=el} data-index="1" className={` bg-linear-to-r from-blue-600 to-purple-600 h-1 absolute inset-0 ${leftanimate(1,"react")}`}> </div>
        </div>
        {/*** */}
        <div className="flex justify-between w-[300px] mb-2 mt-10 ">
-      <div className="text-sm">Expess Js</div>
-      <div className="text-sm">80%</div>
+      <div className="text-sm text-white">Expess Js</div>
+      <div className="text-sm text-white">80%</div>
     </div>
     <div className="relative">
        <div className="w-[300px] bg-slate-300 h-1 absolute inset-0"> </div>
-       <div ref={(el)=>refs.current[3]=el} data-index="3"  className={` bg-violet-700 h-1 absolute inset-0 ${leftanimate(3,"express")}`}> </div>
+       <div ref={(el)=>refs.current[3]=el} data-index="3"  className={` bg-linear-to-r from-blue-600 to-purple-600 h-1 absolute inset-0 ${leftanimate(3,"express")}`}> </div>
+       </div>
+        {/***jj */}
+    <div className="flex justify-between w-[300px] mb-2 mt-10">
+      <div className="text-sm text-white">MYSQL</div>
+      <div className="text-sm text-white">85%</div>
+    </div>
+    <div className="relative">
+       <div className="w-[300px] bg-slate-300 h-1 absolute inset-0"> </div>
+       <div ref={(el)=>refs.current[1]=el} data-index="1" className={` bg-linear-to-r from-blue-600 to-purple-600 h-1 absolute inset-0 ${leftanimate(1,"react")}`}> </div>
        </div>
        </div>
+       
        {/**** */}
        <div className="mt-10 md:ml-10">
     {/***jj */}
     <div className="flex justify-between w-[300px] mb-2 ">
-      <div className="text-sm">Javascript</div>
-      <div className="text-sm">70%</div>
+      <div className="text-sm text-white">Javascript</div>
+      <div className="text-sm text-white">70%</div>
     </div>
     <div className="relative">
        <div className="w-[300px] bg-slate-300 h-1 absolute inset-0"> </div>
-       <div className={` bg-violet-700 h-1 absolute inset-0 ${leftanimate(2,"javascript")}`} data-index="2" ref={(el)=>refs.current[2]=el}> </div>
+       <div className={` bg-linear-to-r from-blue-600 to-purple-600 h-1 absolute inset-0 ${leftanimate(2,"javascript")}`} data-index="2" ref={(el)=>refs.current[2]=el}> </div>
        </div>
        {/*** */}
+       
        <div className="flex justify-between w-[300px] mb-2 mt-10 ">
-      <div className="text-sm">Next Js</div>
-      <div className="text-sm">75 %</div>
+      <div className="text-sm text-white">Next Js</div>
+      <div className="text-sm text-white">75 %</div>
     </div>
     <div className="relative">
        <div className="w-[300px] bg-slate-300 h-1 absolute inset-0"> </div>
        <div
       ref={(el)=>refs.current[4]=el}
       data-index="4"
-          className={`bg-violet-700 h-1 absolute inset-0 ${leftanimate(4,"next")}`}> </div>
+          className={`bg-linear-to-r from-blue-600 to-purple-600 h-1 absolute inset-0 ${leftanimate(4,"next")}`}> </div>
+       </div>
+        {/***jj */}
+    <div className="flex justify-between w-[300px] mb-2 mt-10 ">
+      <div className="text-sm text-white">MongoDB</div>
+      <div className="text-sm text-white">85%</div>
+    </div>
+    <div className="relative">
+       <div className="w-[300px] bg-slate-300 h-1 absolute inset-0"> </div>
+       <div ref={(el)=>refs.current[1]=el} data-index="1" className={` bg-linear-to-r from-blue-600 to-purple-600 h-1 absolute inset-0 ${leftanimate(1,"react")}`}> </div>
        </div>
        </div>
       </div>
-      <div className=" mt-10 bg-slate-50">
+      <div className=" mt-10 ">
         <section id="works"></section>
-        <h1 className='text-xl font-semibold text-blue-700 text-center mt-10'>My projects</h1>
+        <h1 className='text-2xl font-semibold bg-linear-to-r from-blue-500 to-red-700 bg-clip-text text-transparent text-center mt-10'>My projects</h1>
 
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-5 ml-10 mr-10 mt-10 mb-10">
-          <div className="bg-white md:min-h-[350px]  shadow-2xl ">
-          <img src={project1} className=' md:min-h-[200px] min-h-[100px] bg-red-600 w-full'/>
-          <h1 className='md:ml-4 ml-2  text-sm'>Disater Management system -React,express,Mysql</h1>
-          <button className='border-1 border-indigo-600 md:w-[280px] w-[80%] ml-3 md:ml-4 mr-3 mt-2 text-sm text-indigo-800 p-1 mb-3'>Live preview</button>
-          </div>
-          <div className="bg-white  shadow-2xl"></div>
-          <div className="bg-white shadow-2xl"></div>
-          <div className="bg-white   shadow-2xl"></div>
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-5 ml-10 mr-10 mt-10 mb-10">
+         {/** */}
+         <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
+            <div className="md:flex   ">
+              <div className=""><img src={project1} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+            
+            <div className="ml-2">
+                <h2 className='font-semibold text-white text-md md:text-lg '>Disaster management system</h2>
+                <p className='text-gray-400 text-xs mt-1 md:text-sm'>A Full stack web application for managing disster,resource and relif operations efficiently</p>
+                <h3 className='text-indigo-500 text-sm md:text-md '>Live Preview </h3>
+            </div>
+            </div>
+           </div>
+             {/** */}
+             {/** */}
+          <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
+            <div className="md:flex   ">
+              <div className=""><img src={project1} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+            
+            <div className="ml-2">
+                <h2 className='font-semibold text-white text-md md:text-lg '>Disaster management system</h2>
+                <p className='text-gray-400 text-xs mt-1 md:text-sm'>A Full stack web application for managing disster,resource and relif operations efficiently</p>
+                <h3 className='text-indigo-500 text-sm md:text-md '>Live Preview </h3>
+            </div>
+            </div>
+           </div>
+             {/** */}
+             {/** */}
+          <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
+            <div className="md:flex   ">
+              <div className=""><img src={project1} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+            
+            <div className="ml-2">
+                <h2 className='font-semibold text-white text-md md:text-lg '>Disaster management system</h2>
+                <p className='text-gray-400 text-xs mt-1 md:text-sm'>A Full stack web application for managing disster,resource and relif operations efficiently</p>
+                <h3 className='text-indigo-500 text-sm md:text-md '>Live Preview </h3>
+            </div>
+            </div>
+           </div>
+             {/** */}
+          
         </div>
+       <br/><br/>
       </div>
     </div>
   )
