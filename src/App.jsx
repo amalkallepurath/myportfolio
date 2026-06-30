@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react'
 import image from './image/amal3.png'
-
+import project2 from './image/project2.jpg'
 import project1 from './image/project1.png'
 import Header from './Header'
 
@@ -180,12 +180,12 @@ to innovative projects in the IT industry.
              {/** */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
             <div className="md:flex   ">
-              <div className=""><img src={project1} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+              <div className=""><img src={project2} className='md:w-[200px] w-full h-[100px] p-2'/></div>
             
             <div className="ml-2">
-                <h2 className='font-semibold text-white text-md md:text-lg '>Disaster management system</h2>
-                <p className='text-gray-400 text-xs mt-1 md:text-sm'>A Full stack web application for managing disster,resource and relif operations efficiently</p>
-                <h3 className='text-indigo-500 text-sm md:text-md '>Live Preview </h3>
+                <h2 className='font-semibold text-white text-md md:text-lg '>Todo List</h2>
+                <p className='text-gray-400 text-xs mt-1 md:text-sm'>A simple and responsive todo list application build using react.it allow users to add,delete and edit list</p>
+                <a href="https://myportfolio-mauve-omega-62.vercel.app/" className='text-indigo-500 text-sm md:text-md '>Live Preview </a>
             </div>
             </div>
            </div>
