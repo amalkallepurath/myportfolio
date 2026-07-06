@@ -3,6 +3,7 @@ import image from './image/amal3.png'
 import project2 from './image/project2.jpg'
 import project1 from './image/project1.png'
 import project3 from './image/project3.png'
+import project4 from './image/project4.png'
 import Header from './Header'
 
 export default function App() {
@@ -187,6 +188,19 @@ to innovative projects in the IT industry.
                 <h2 className='font-semibold text-white text-md md:text-lg '>Todo List</h2>
                 <p className='text-gray-400 text-xs mt-1 md:text-sm'>A simple and responsive todo list application build using react.it allow users to add,delete and edit list</p>
                 <a href="https://amalcherayi-project1.vercel.app/" className='text-indigo-500 text-sm md:text-md '>Live Preview </a>
+            </div>
+            </div>
+           </div>
+             {/** */}
+              {/**project 4 */}
+          <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
+            <div className="md:flex   ">
+              <div className=""><img src={project4} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+            
+            <div className="ml-2">
+                <h2 className='font-semibold text-white text-md md:text-lg '>Age Calculator</h2>
+                <p className='text-gray-400 text-xs mt-1 md:text-sm'>A smart and user-friendly web application that accurately calculates a person's precise age in year,month and days.it also tracks exact number of days remaining until their next birthday,ensuring a clean and seamless user experience</p>
+                <a href="https://amalcherayi-project3.vercel.app/" className='text-indigo-500 text-sm md:text-md '>Live Preview </a>
             </div>
             </div>
            </div>
