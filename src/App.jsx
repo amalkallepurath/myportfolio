@@ -155,7 +155,7 @@ to innovative projects in the IT industry.
         <div className="grid md:grid-cols-3 grid-cols-2 gap-5 ml-10 mr-10 mt-10 mb-10">
          {/** project 1*/}
          <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
-            <div className="md:flex   ">
+            <div className="  ">
               <div className=""><img src={project1} className='w-auto p-2'/></div>
             
             <div className="ml-2">
@@ -168,7 +168,7 @@ to innovative projects in the IT industry.
              {/** */}
              {/**project2 */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
-            <div className="md:flex   ">
+            <div className="   ">
               <div className=""><img src={project3} className='w-auto p-2'/></div>
             
             <div className="ml-2">
@@ -181,7 +181,7 @@ to innovative projects in the IT industry.
              {/** */}
              {/**project 3 */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
-            <div className="md:flex   ">
+            <div className="  ">
               <div className=""><img src={project2} className='w-auto  p-2'/></div>
             
             <div className="ml-2">
@@ -194,7 +194,7 @@ to innovative projects in the IT industry.
              {/** */}
               {/**project 4 */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
-            <div className="md:flex  ">
+            <div className=" ">
               <div className=""><img src={project4} className='w-auto p-2'/></div>
             
             <div className="ml-2">
