@@ -156,7 +156,7 @@ to innovative projects in the IT industry.
          {/** project 1*/}
          <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
             <div className="md:flex   ">
-              <div className=""><img src={project1} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+              <div className=""><img src={project1} className='w-auto p-2'/></div>
             
             <div className="ml-2">
                 <h2 className='font-semibold text-white text-md md:text-lg '>Disaster management system</h2>
@@ -169,7 +169,7 @@ to innovative projects in the IT industry.
              {/**project2 */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
             <div className="md:flex   ">
-              <div className=""><img src={project3} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+              <div className=""><img src={project3} className='w-auto p-2'/></div>
             
             <div className="ml-2">
                 <h2 className='font-semibold text-white text-md md:text-lg '>Weather application</h2>
@@ -182,7 +182,7 @@ to innovative projects in the IT industry.
              {/**project 3 */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
             <div className="md:flex   ">
-              <div className=""><img src={project2} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+              <div className=""><img src={project2} className='w-auto  p-2'/></div>
             
             <div className="ml-2">
                 <h2 className='font-semibold text-white text-md md:text-lg '>Todo List</h2>
@@ -194,8 +194,8 @@ to innovative projects in the IT industry.
              {/** */}
               {/**project 4 */}
           <div className="bg-slate-800 border border-gray-700 shadow-xs shadow-gray-600 rounded-md">
-            <div className="md:flex   ">
-              <div className=""><img src={project4} className='md:w-[200px] w-full h-[100px] p-2'/></div>
+            <div className="md:flex  ">
+              <div className=""><img src={project4} className='w-auto p-2'/></div>
             
             <div className="ml-2">
                 <h2 className='font-semibold text-white text-md md:text-lg '>Age Calculator</h2>
