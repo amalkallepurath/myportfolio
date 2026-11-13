@@ -4,7 +4,16 @@ import project2 from './image/project2.jpg'
 import project1 from './image/project1.png'
 import project3 from './image/project3.png'
 import project4 from './image/project4.png'
+import topright from './image/top-right.png'
+import download from './image/download.png'
+import icon1 from './image/icon1.png'
+import icon2 from './image/icon2.png'
+import icon3 from './image/icon3.png'
+import icon4 from './image/icon4.png'
+import icon5 from './image/icon5.png'
+import icon6 from './image/icon6.png'
 import Header from './Header'
+
 
 export default function App() {
   const[visible,setvisible]=useState([])
@@ -53,10 +62,24 @@ export default function App() {
     <div className="flex flex-col  p-10">
       <div className="flex"><h1 className='text-white md:text-4xl text-2xl font-bold mt-20 md:mt-10  '>Hi , I'm</h1> <h1 className='bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent md:text-4xl text-2xl font-bold mt-20 md:mt-10 ml-3'>AMAL</h1></div>
     
-    <p  className='text-gray-700 md:text-2xl text-lg md:mt-3 mt-1 font-semibold text-slate-200'>React Developer </p>
-    <p className='md:min-w-[400px] text-sm md:mt-3 mt-1 text-gray-700 text-slate-200'>Building scalable web application with a focus on seamless user experiences and robust backend architecture .</p>
-   <a href="about"> <button className='bg-linear-to-r from-violet-600 to-blue-600 text-white font-semibold p-1 mt-5 md:w-[200px] w-[130px] text-sm md:text-md'>More About Me</button></a>
+    <p  className='text-gray-700 md:text-4xl text-lg md:mt-3 mt-1 font-semibold text-slate-200'>Full Stack <span className='text-blue-400'>Developer</span>  </p>
+    <p className='md:min-w-[400px] text-sm md:mt-3 mt-1 text-gray-700 text-slate-200'>I build modern,responsive and user-friendly <br/> web application using Mern stack.</p>
+  <div className="flex"> <a href="about"> <button className='bg-linear-to-r from-violet-600 to-blue-600 pl-3 text-white flex p-2 mt-5 md:w-[130px] w-[100px] rounded-sm text-xs md:text-xs'>View My Works<img src={topright} className='h-2 mt-1 ml-3  '/></button></a> <a href="about"> <button className='border flex border-gray-50 rounded-sm text-xs md:w-[120px] w-[100px] p-2 mt-5 text-white ml-5'> Download CV <img src={download} className='h-4  ml-3  '/></button></a></div>
+  <div className="mt-36  ">
+    <h1 className='text-gray-400 text-sm'>TECHNOLOGIES I WORKS WITH</h1>
+    <div className="flex">
+    <img src={icon1} className='h-8 mt-5'/>
+    <img src={icon2} className='h-12 ml-5 mt-5 -translate-y-2'/>
+    <img src={icon3} className='h-8 ml-5 mt-5'/>
+    <img src={icon4} className='h-8 ml-5 mt-5'/>
+    <img src={icon5} className='h-8 ml-5 mt-5'/>
+
+  
+    </div>
+    <div className="bg-violet-600 w-[100px] h-[100px] -translate-x-40 blur-2xl"></div>
   </div>
+  </div>
+ 
   </div>
   <div><img src={image} className='w-[400px] h-[450px] mt-20 hidden md:block'/></div>
 </div>
