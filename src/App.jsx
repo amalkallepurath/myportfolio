@@ -1,5 +1,5 @@
 import React,{useState,useEffect,useRef} from 'react'
-import image from './image/amal3.png'
+import image from './image/burfy_141120260032.png'
 import project2 from './image/project2.jpg'
 import project1 from './image/project1.png'
 import project3 from './image/project3.png'
