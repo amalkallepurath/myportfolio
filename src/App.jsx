@@ -81,7 +81,7 @@ export default function App() {
   </div>
  
   </div>
-  <div><img src={image} className='w-[400px] h-[450px] mt-20 hidden md:block'/></div>
+  <div><img src={image} className='w-[450px] h-[450px] mt-20 hidden md:block'/></div>
 </div>
 <div className="">
   <br/>
